@@ -14,7 +14,7 @@ try {
 	const result = await response.json();
   const data = result.results;
    const arrau = document.getElementById("div");
-arrau.innerHTML = data.map((list)=>list.primaryName);
+arrau.innerHTML = "<h1>Actors :<h1>" + data.map((list)=>list.primaryName + "<br>");
 
 
 } catch (error) {
