@@ -16,6 +16,7 @@ try {
    const arrau = document.getElementById("div");
 arrau.innerHTML = data.map((list)=>list.primaryName);
 
+
 } catch (error) {
 	console.error(error);
 }
